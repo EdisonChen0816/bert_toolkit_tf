@@ -1,0 +1,14 @@
+# bert_cfg
+train_path: ./data/atis-train.iob
+eval_path: ./data/atis-dev.iob
+bert_path: C:/数据/模型/chinese_L-12_H-768_A-12
+save_path: ./model/bert
+
+w2v_path: ./model/w2v/w2v.model
+
+# logger setting
+Server_Name: bert_toolkit_tf
+LogLevel_Console: 10
+LogLevel_File: 10
+LogFile: log/bert_toolkit_tf.log
+LogFormat: '%(asctime)s|%(levelname)s:%(message)s'
